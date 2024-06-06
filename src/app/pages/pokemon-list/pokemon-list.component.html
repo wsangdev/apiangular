@@ -1,0 +1,11 @@
+
+<div>
+  <ul>
+    <li *ngFor="let pokemon of pokemons"> {{pokemon.name}}  
+    </li>
+  </ul>
+</div>
+
+<div *ngIf="pokemons.length === 0">
+  <p> Pokemon not Found </p>
+</div>
